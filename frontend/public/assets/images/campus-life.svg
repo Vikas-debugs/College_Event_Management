@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="lifeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4c0c56" />
+      <stop offset="100%" stop-color="#6b2d7b" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#lifeGrad)" />
+  <circle cx="700" cy="100" r="150" fill="#e29826" opacity="0.1" />
+  <circle cx="100" cy="500" r="180" fill="#9966ac" opacity="0.15" />
+  
+  <rect x="50" y="50" width="700" height="500" rx="20" fill="#ffffff" opacity="0.05" stroke="#f3eaf6" stroke-width="1.5" />
+  
+  <path d="M250,380 C320,280 480,280 550,380 Z" fill="#e29826" opacity="0.8" />
+  <circle cx="400" cy="240" r="60" fill="#d4a229" />
+  <circle cx="300" cy="270" r="45" fill="#9966ac" />
+  <circle cx="500" cy="270" r="45" fill="#9966ac" />
+  
+  <text x="400" y="460" font-family="'Playfair Display', Georgia, serif" font-size="36" font-weight="bold" fill="#ffffff" text-anchor="middle">Vibrant Campus Life</text>
+  <text x="400" y="505" font-family="'Inter', sans-serif" font-size="16" fill="#f3eaf6" text-anchor="middle">Clubs • Sports • Cultural Societies • Innovation</text>
+</svg>

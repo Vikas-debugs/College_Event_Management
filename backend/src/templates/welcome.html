@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Welcome to TIHS CEMS</title>
+  <style>
+    body { font-family: 'Inter', Arial, sans-serif; background-color: #faf8f5; color: #2d1535; margin: 0; padding: 20px; }
+    .container { max-width: 600px; margin: 0 auto; background: #ffffff; border-radius: 12px; overflow: hidden; border: 1px solid #f3eaf6; }
+    .header { background: linear-gradient(135deg, #4c0c56, #3a0944); padding: 30px 20px; text-align: center; color: #ffffff; }
+    .header h1 { margin: 0; font-family: 'Playfair Display', serif; font-size: 24px; }
+    .badge { display: inline-block; background: #e29826; color: #ffffff; padding: 4px 12px; border-radius: 20px; font-size: 11px; font-weight: bold; margin-top: 10px; }
+    .body { padding: 30px 25px; line-height: 1.6; }
+    .otp-box { background: #f3eaf6; border: 2px dashed #9966ac; border-radius: 8px; text-align: center; padding: 15px; margin: 20px 0; font-size: 28px; font-weight: bold; letter-spacing: 6px; color: #4c0c56; }
+    .footer { background: #3a0944; color: #d4a229; padding: 20px; text-align: center; font-size: 12px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Techno Institute of Higher Studies</h1>
+      <p style="margin: 5px 0 0 0; font-size: 13px; color: #f3eaf6;">"Shaping Future Skilled Professionals"</p>
+      <div class="badge">NAAC Accredited | NCTE Approved | ISO 9001:2015</div>
+    </div>
+    <div class="body">
+      <h2>Welcome, {{name}}!</h2>
+      <p>Thank you for creating an account on the TIHS College Event Management System (CEMS). You are registered as <strong>{{role}}</strong> in the <strong>{{department}}</strong> department.</p>
+      <p>Please use the verification code below to verify your college email address:</p>
+      <div class="otp-box">{{otp}}</div>
+      <p>This code will expire in 15 minutes. If you did not create this account, please ignore this email.</p>
+    </div>
+    <div class="footer">
+      Techno Institute of Higher Studies (TIHS), Lucknow<br>
+      Affiliated to University of Lucknow | +91-7897123111 | https://www.tihs.edu.in
+    </div>
+  </div>
+</body>
+</html>

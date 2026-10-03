@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Event Proposal Update - TIHS</title>
+  <style>
+    body { font-family: 'Inter', Arial, sans-serif; background-color: #faf8f5; color: #2d1535; margin: 0; padding: 20px; }
+    .container { max-width: 600px; margin: 0 auto; background: #ffffff; border-radius: 12px; overflow: hidden; border: 1px solid #f3eaf6; }
+    .header { background: linear-gradient(135deg, #7f1d1d, #3a0944); padding: 25px 20px; text-align: center; color: #ffffff; }
+    .body { padding: 30px 25px; line-height: 1.6; }
+    .reason-box { background: #fef2f2; border: 1px solid #fca5a5; border-radius: 6px; padding: 15px; margin: 15px 0; color: #991b1b; }
+    .footer { background: #3a0944; color: #d4a229; padding: 20px; text-align: center; font-size: 12px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1 style="margin: 0; font-family: 'Playfair Display', serif;">Event Proposal Status Update</h1>
+      <p style="margin: 5px 0 0 0; font-size: 13px;">TIHS Administration Portal</p>
+    </div>
+    <div class="body">
+      <h2>Dear Professor {{facultyName}},</h2>
+      <p>Your event proposal for <strong>"{{eventTitle}}"</strong> has been reviewed by the Administration committee and could not be approved at this time.</p>
+      
+      <div class="reason-box">
+        <strong>Reviewer Feedback / Reason:</strong>
+        <p style="margin: 5px 0 0 0;">{{reason}}</p>
+      </div>
+
+      <p>You may edit the event details or schedule and re-submit for approval from your Faculty Dashboard.</p>
+    </div>
+    <div class="footer">
+      Techno Institute of Higher Studies (TIHS), Lucknow
+    </div>
+  </div>
+</body>
+</html>

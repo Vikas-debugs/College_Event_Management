@@ -1,0 +1,81 @@
+# ─── Sensitive / Secret Files ─────────────────────────────────────────────────
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.production
+backend/.env
+frontend/.env
+*.pem
+*.key
+*.crt
+secrets.*
+
+# ─── Dependencies ─────────────────────────────────────────────────────────────
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+.pnp
+.pnp.js
+
+# ─── Build Output ─────────────────────────────────────────────────────────────
+dist/
+build/
+frontend/dist/
+frontend/build/
+*.tsbuildinfo
+
+# ─── Database / Data Store ────────────────────────────────────────────────────
+# Keep .env.example (safe template) but never the real data store JSON with PII
+backend/data/store.json
+
+# ─── Uploaded Files ───────────────────────────────────────────────────────────
+backend/uploads/
+uploads/
+
+# ─── Logs ─────────────────────────────────────────────────────────────────────
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# ─── Runtime / Cache ──────────────────────────────────────────────────────────
+.cache/
+.parcel-cache/
+.next/
+.nuxt/
+.output/
+.vitepress/dist/
+.eslintcache
+.stylelintcache
+
+# ─── Testing ──────────────────────────────────────────────────────────────────
+coverage/
+.nyc_output/
+
+# ─── OS / Editor Junk ─────────────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ─── IDEs ─────────────────────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ─── Misc ─────────────────────────────────────────────────────────────────────
+*.tgz
+*.zip

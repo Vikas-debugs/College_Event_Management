@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Event Reminder - TIHS</title>
+  <style>
+    body { font-family: 'Inter', Arial, sans-serif; background-color: #faf8f5; color: #2d1535; margin: 0; padding: 20px; }
+    .container { max-width: 600px; margin: 0 auto; background: #ffffff; border-radius: 12px; overflow: hidden; border: 1px solid #f3eaf6; }
+    .header { background: linear-gradient(135deg, #4c0c56, #6b2d7b); padding: 25px 20px; text-align: center; color: #ffffff; }
+    .body { padding: 30px 25px; line-height: 1.6; }
+    .alert-box { background: #f3eaf6; border-left: 4px solid #e29826; padding: 15px; margin: 20px 0; border-radius: 4px; }
+    .footer { background: #3a0944; color: #d4a229; padding: 20px; text-align: center; font-size: 12px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1 style="margin: 0; font-family: 'Playfair Display', serif;">⏰ Event Reminder</h1>
+      <p style="margin: 5px 0 0 0; font-size: 13px;">Techno Institute of Higher Studies (TIHS), Lucknow</p>
+    </div>
+    <div class="body">
+      <h2>Hello, {{userName}}!</h2>
+      <p>This is a reminder that your registered event <strong>{{eventTitle}}</strong> is starting soon.</p>
+      
+      <div class="alert-box">
+        <p style="margin: 3px 0;"><strong>Event:</strong> {{eventTitle}}</p>
+        <p style="margin: 3px 0;"><strong>Venue:</strong> {{venue}}</p>
+        <p style="margin: 3px 0;"><strong>Start Time:</strong> {{startDate}}</p>
+      </div>
+
+      <p>Please arrive at least 15 minutes before time with your digital QR ticket ready on your student dashboard.</p>
+    </div>
+    <div class="footer">
+      TIHS Lucknow | Shaping Future Skilled Professionals | +91-7897123111
+    </div>
+  </div>
+</body>
+</html>

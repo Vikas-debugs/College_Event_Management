@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="zoneGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3a0944" />
+      <stop offset="100%" stop-color="#4c0c56" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#zoneGrad)" />
+  <rect x="100" y="80" width="600" height="440" rx="24" fill="#faf8f5" opacity="0.08" stroke="#d4a229" stroke-width="2" />
+  
+  <circle cx="400" cy="220" r="80" fill="#e29826" opacity="0.9" />
+  <!-- Book / Computer Icon -->
+  <path d="M350,220 L400,200 L450,220 L400,240 Z" fill="#ffffff" />
+  <path d="M350,220 L350,250 L400,270 L400,240 Z" fill="#faf8f5" opacity="0.8" />
+  <path d="M450,220 L450,250 L400,270 L400,240 Z" fill="#e2e8f0" />
+  
+  <text x="400" y="370" font-family="'Playfair Display', Georgia, serif" font-size="34" font-weight="bold" fill="#ffffff" text-anchor="middle">Student Activity Hub</text>
+  <text x="400" y="415" font-family="'Inter', sans-serif" font-size="16" fill="#e29826" text-anchor="middle">Cafeteria • Lounge • Incubation & Co-working</text>
+  <text x="400" y="445" font-family="'Inter', sans-serif" font-size="14" fill="#f3eaf6" text-anchor="middle">Empowering 2500+ Students Every Day</text>
+</svg>

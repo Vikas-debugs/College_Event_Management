@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <defs>
+    <linearGradient id="facHeroBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4c0c56" />
+      <stop offset="40%" stop-color="#3a0944" />
+      <stop offset="100%" stop-color="#6b2d7b" />
+    </linearGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#facHeroBg)" />
+  
+  <circle cx="1700" cy="200" r="300" fill="#e29826" opacity="0.1" />
+  <circle cx="200" cy="800" r="400" fill="#d4a229" opacity="0.08" />
+
+  <g transform="translate(960, 480)" text-anchor="middle">
+    <rect x="-450" y="-220" width="900" height="440" rx="30" fill="#2d1535" opacity="0.7" stroke="#e29826" stroke-width="3" />
+    
+    <text y="-100" font-family="'Playfair Display', Georgia, serif" font-size="54" font-weight="bold" fill="#ffffff">World-Class Campus Facilities</text>
+    <text y="-40" font-family="'Inter', sans-serif" font-size="22" font-weight="600" fill="#d4a229">TECHNO INSTITUTE OF HIGHER STUDIES (TIHS), LUCKNOW</text>
+    
+    <line x1="-300" y1="0" x2="300" y2="0" stroke="#f3eaf6" stroke-width="2" opacity="0.3" />
+    
+    <text y="50" font-family="'Inter', sans-serif" font-size="20" fill="#f3eaf6">AC Auditoriums • Advanced AI/ML & Robotics Labs • Central Digital Library</text>
+    <text y="95" font-family="'Inter', sans-serif" font-size="20" fill="#f3eaf6">Indoor & Outdoor Sports Arena • Cafeteria & Innovation Incubation Cell</text>
+    
+    <rect x="-240" y="140" width="480" height="50" rx="25" fill="#e29826" />
+    <text y="172" font-family="'Inter', sans-serif" font-size="18" font-weight="bold" fill="#ffffff">NAAC ACCREDITED | NCTE APPROVED</text>
+  </g>
+</svg>

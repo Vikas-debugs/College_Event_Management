@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Your Participation Certificate - TIHS</title>
+  <style>
+    body { font-family: 'Inter', Arial, sans-serif; background-color: #faf8f5; color: #2d1535; margin: 0; padding: 20px; }
+    .container { max-width: 600px; margin: 0 auto; background: #ffffff; border-radius: 12px; overflow: hidden; border: 1px solid #f3eaf6; }
+    .header { background: linear-gradient(135deg, #4c0c56, #3a0944); padding: 30px 20px; text-align: center; color: #ffffff; }
+    .btn { display: inline-block; background: #e29826; color: #ffffff !important; padding: 12px 28px; text-decoration: none; border-radius: 6px; font-weight: bold; margin: 20px 0; }
+    .body { padding: 30px 25px; line-height: 1.6; text-align: center; }
+    .footer { background: #3a0944; color: #d4a229; padding: 20px; text-align: center; font-size: 12px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1 style="margin: 0; font-family: 'Playfair Display', serif;">🎓 Certificate of Participation</h1>
+      <p style="margin: 5px 0 0 0; color: #d4a229;">Techno Institute of Higher Studies (TIHS)</p>
+    </div>
+    <div class="body">
+      <h2>Congratulations, {{userName}}!</h2>
+      <p>Thank you for participating in <strong>{{eventTitle}}</strong> organized by TIHS Lucknow.</p>
+      <p>Your verified digital Certificate of Participation has been generated with ID <strong>{{certificateId}}</strong>.</p>
+      
+      <a href="{{certUrl}}" class="btn">View & Download Certificate PDF</a>
+
+      <p style="font-size: 13px; color: #6b5a72;">You can also access all your certificates anytime from your TIHS Student Dashboard.</p>
+    </div>
+    <div class="footer">
+      Techno Institute of Higher Studies (TIHS), Lucknow | NAAC Accredited
+    </div>
+  </div>
+</body>
+</html>

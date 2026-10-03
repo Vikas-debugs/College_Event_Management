@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <defs>
+    <linearGradient id="heroBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3a0944" />
+      <stop offset="50%" stop-color="#4c0c56" />
+      <stop offset="100%" stop-color="#2d1535" />
+    </linearGradient>
+    <linearGradient id="accentGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#e29826" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#d4a229" stop-opacity="0.2" />
+    </linearGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#heroBg)" />
+  
+  <!-- Architectural Campus Silhouette -->
+  <g opacity="0.15" fill="#ffffff">
+    <rect x="200" y="380" width="300" height="700" rx="10" />
+    <rect x="540" y="260" width="450" height="820" rx="15" />
+    <polygon points="540,260 765,120 990,260" />
+    <rect x="1030" y="340" width="340" height="740" rx="10" />
+    <rect x="1410" y="420" width="310" height="660" rx="10" />
+    <!-- Pillars & Windows -->
+    <circle cx="765" cy="220" r="40" fill="#e29826" />
+  </g>
+
+  <!-- Glowing Geometric Nodes & Wave Lines -->
+  <path d="M0,900 C400,820 800,980 1200,850 C1600,720 1800,920 1920,860 L1920,1080 L0,1080 Z" fill="url(#accentGlow)" />
+
+  <!-- Center Branding Elements -->
+  <circle cx="960" cy="450" r="140" fill="#4c0c56" stroke="#e29826" stroke-width="4" stroke-dasharray="12 6" opacity="0.9" />
+  <text x="960" y="430" font-family="'Playfair Display', Georgia, serif" font-size="70" font-weight="bold" fill="#ffffff" text-anchor="middle">TIHS</text>
+  <text x="960" y="480" font-family="'Inter', sans-serif" font-size="22" font-weight="700" fill="#e29826" text-anchor="middle" letter-spacing="4">LUCKNOW</text>
+  
+  <text x="960" y="660" font-family="'Playfair Display', Georgia, serif" font-size="52" font-weight="bold" fill="#ffffff" text-anchor="middle">Techno Institute of Higher Studies</text>
+  <text x="960" y="730" font-family="'Inter', sans-serif" font-size="28" font-style="italic" fill="#f3eaf6" text-anchor="middle">"Shaping Future Skilled Professionals"</text>
+
+  <!-- Accreditation Badges -->
+  <rect x="610" y="780" width="700" height="60" rx="30" fill="#3a0944" stroke="#d4a229" stroke-width="2" />
+  <text x="960" y="818" font-family="'Inter', sans-serif" font-size="18" font-weight="700" fill="#d4a229" text-anchor="middle" letter-spacing="2">NAAC ACCREDITED | NCTE APPROVED | ISO 9001:2015</text>
+</svg>
